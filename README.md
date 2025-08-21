@@ -1,24 +1,28 @@
-### Hi there 👋
+### Paritosh Anand 👋
 
-I am an experienced Senior Principal Software Engineer with a proven track record in the internet industry 🌐. Passionate about driving innovation and delivering impactful solutions.
+📧 in.paritosh@outlook.com | 📱 +44 7776796147
 
-Expert in **Python**, **Linux**, **AWS**, **Jenkins**, and **Docker** 🛠️. I am passionate about continuous learning and consistently delivering projects that drive rapid growth 🚀.
+I am a Senior Principal Software Engineer and technical leader with 13+ years of experience architecting and scaling mission-critical systems in the internet industry 🌐. I specialize in transforming complex technical challenges into strategic business outcomes through innovative platform engineering and data infrastructure solutions.
+
+As a hands-on technical leader, I've successfully guided cross-functional teams through large-scale cloud migrations, built production data platforms from the ground up, and established DevOps practices that enable hundreds of engineers to deliver thousands of code changes daily. My expertise spans the full spectrum of modern infrastructure—from designing cloud-native architectures to implementing real-time analytics platforms that process millions of metrics 🚀.
 
 ---
 
 ### 💼 Primary Skills
 
 - **Linux**, **Docker**, **Kubernetes**, **ECS**, **EKS**
-- **AWS**, **Jenkins**, **ArgoCD**, **Argo Workflows**
-- **Python**, **Django**, **Celery**
-- **Firebase**, **Ansible**, **Terraform**, **Git**
+- **AWS**, **Kubernetes**
+- **Jenkins**, **ArgoCD**, **Argo Workflows**, **Github Actions**
+- **Grafana**, **Datadog**, **Scalyr**
+- **Python**, **Django**, **Go**
+- **Terraform**, **Git**
 
 ---
 
 ### 🔍 Specialties
 
 - **Scalable Deployment Strategy**: Deploying diverse applications across multiple data centers with precision.
-- **Real-Time Monitoring Systems**: Building systems that measure millions of metrics in near real-time.
+- **Real-Time Monitoring Systems**: Building systems that measure millions of metrics & logs in near real-time.
 - **Process Automation**: Crafting enterprise-grade applications to automate manual processes.
 - **CI/CD Administration**: Managing continuous integration systems using Jira, Git, Gerrit, Jenkins, Nexus, and Sonar.
 - **Cloud Infrastructure**: Leveraging AWS and Docker for robust containerization and cloud solutions.
@@ -47,9 +51,7 @@ Expert in **Python**, **Linux**, **AWS**, **Jenkins**, and **Docker** 🛠️. I
 
 I was honored to receive the "Impact Innovator of the Year 2017-18" award at the MMT Town Hall Meet, where it was presented by the CEO as part of the Ring of Honour recognition.
 
----
-
-#### CTO Champion Award
+#### CTO Champion Award 2017
 
 ---
 
@@ -57,11 +59,9 @@ I was honored to receive the "Impact Innovator of the Year 2017-18" award at the
 
 #### M.Tech Data Science & Engineering | Birla Institute of Technology and Science, Pilani 
 
-Master of Technology - MTech Data Science & Engineering
+**Master of Technology - MTech Data Science & Engineering**
 
 April 2021 - March 2023
-
----
 
 #### B. Tech Computer Science & Engineering
 
@@ -88,16 +88,63 @@ June 2007 - June 2011
 
 ### 🚀 Projects
 
-#### 🐳 ☸️ ☁️ Argo Workflows
+#### 🏗️ ☁️ Data Lakehouse Platform - AWS Infrastructure & Analytics
+
+Built a comprehensive data lakehouse platform from the ground up, establishing Fresha as one of the UK's first StarRocks production pioneers. This project involved creating a robust, scalable infrastructure to support modern data analytics and real-time processing capabilities.
+
+**Infrastructure Foundation:**
+- **AWS Landing Zone:** Designed and implemented a secure, multi-account AWS landing zone using Terraform, establishing governance, security, and networking foundations for the data platform.
+- **EKS Cluster Provisioning:** Created production-ready Amazon EKS clusters with Terraform, implementing best practices for security, networking, and resource management.
+
+**Platform Operations:**
+- **GitOps Deployment:** Leveraged ArgoCD for continuous deployment of foundational applications including:
+  - EBS CSI Driver for persistent storage management
+  - External Secrets Operator for secure secrets management
+  - Datadog for comprehensive observability and monitoring
+  - Cluster Autoscaler for dynamic resource scaling
+  - External DNS for automated DNS management
+- **AWS MSK Integration:** Provisioned and configured Amazon Managed Streaming for Apache Kafka (MSK) clusters for real-time data streaming.
+
+**Data Platform Components:**
+- **Kafka Ecosystem:** Deployed and managed Kafka Connect clusters and Schema Registry for data ingestion and schema evolution.
+- **Lake Management:** Implemented Lakekeeper for data lake governance and metadata management.
+- **Processing Engines:** Provisioned Apache Spark and Apache Flink for batch and stream processing workloads.
+- **Analytics Engine:** Successfully deployed StarRocks as the primary OLAP database, becoming one of the first UK companies to run StarRocks in production.
+
+**Impact & Innovation:**
+- Enabled real-time analytics capabilities across the organization
+- Established a foundation for modern data architecture supporting both batch and streaming workloads
+- Pioneered StarRocks adoption in the UK market, contributing to the broader data community through knowledge sharing
+- Delivered a production-ready platform that scales with business needs while maintaining cost efficiency
+
+This project demonstrated expertise in cloud-native data architecture, infrastructure as code, and emerging analytics technologies while positioning the organization at the forefront of modern data platform innovation.
+
+---
+
+#### 🏃‍♂️ GitHub Actions
+
+GitHub Actions is a powerful automation platform that allows you to create custom CI/CD pipelines directly within your GitHub repositories.
+
+I played a pivotal role in the design and setup of GitHub Actions for our projects. My primary responsibilities included:
+
+- **Provisioning Self-Hosted Runners:** Set up and managed self-hosted runners on AWS EKS to ensure scalable and efficient execution of our CI/CD pipelines. This involved configuring the runners to handle various workloads and integrating them seamlessly with our existing infrastructure which was more cost effective than Github Action runners.
+- **CI/CD Pipeline Creation:** Designed and implemented comprehensive CI/CD pipelines using GitHub Actions and workflows. This included defining workflows for building, testing, and deploying applications, ensuring that all processes were automated and streamlined.
+- **Observability:** Integrated Datadog's CI visibility into our GitHub Actions workflows. Ensuring that any issues could be quickly identified and resolved.
+
+The successful implementation of GitHub Actions modernized our CI/CD infrastructure and significantly improved the Developer Experience and maintainability of our CI/CD Pipelines.
+
+---#### 🐳 ☸
+️ ☁️ Argo Workflows
 
 Argo Workflows is a powerful, open-source container-native workflow engine designed to orchestrate parallel jobs within Kubernetes environments.
 
-During my tenure, I played a pivotal role in the design and setup of Argo Workflows on AWS EKS. My primary responsibilities included:
+I played a pivotal role in the design and setup of Argo Workflows on AWS EKS. My primary responsibilities included:
 
 - **Architectural Design:** Crafted the architecture for integrating Argo Workflows into our existing infrastructure, ensuring seamless compatibility with AWS EKS and alignment with our development practices.
 - **Pipeline Migration:** Led the comprehensive migration of legacy CI/CD pipelines from CircleCI to Argo Workflows. This involved mapping out existing workflows, reconfiguring build and deployment processes, and translating all components into the Argo environment.
 - **Performance Optimization:** Focused on optimizing the performance of the new workflows post-migration. Addressed any bottlenecks and fine-tuned configurations to enhance overall efficiency and reliability.
 - **Collaboration & Training:** Worked closely with development and operations teams to ensure a smooth transition. Conducted training sessions and created documentation to facilitate adoption and understanding of the new workflows.
+- **Observability:** Created custom plugins to enable Datadog's CI visibility for Argo-Workflows using Datadog APIs.
 
 The successful migration modernized our CI/CD infrastructure and significantly improved the scalability and maintainability of our deployment processes.
 
